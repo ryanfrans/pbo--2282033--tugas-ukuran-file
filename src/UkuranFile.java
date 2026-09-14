@@ -25,7 +25,19 @@ public class UkuranFile {
 
         double selisihPembulatan = ukuranMB - ukuranMBBulat;
 
+        System.out.println();
 
+        System.out.println("===== UKURAN FILE =====");
+        System.out.println(namafile);
+        System.out.println(ukuranByte + "byte");
+        System.out.println(ukuranKB + "KB");
+        System.out.println(ukuranMB + "MB");
+        System.out.println(ukuranGB + "GB");
 
+        System.out.println();
+        System.out.println("Dibulatkan ke MB : " + ukuranMBBulat);
+        System.out.println("Selisih pembulatan : " + selisihPembulatan);
+
+        scanner.close();
      }
 }
